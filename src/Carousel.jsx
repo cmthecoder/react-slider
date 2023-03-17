@@ -7,7 +7,7 @@ const Carousel = () => {
   return (
     <>
       <motion.div className="carousel">
-        <motion.div className="inner-carousel">
+        <motion.div drag="x" className="inner-carousel">
           {images.map((image, idx) => {
             return (
               <motion.div className="item" key={idx}>
