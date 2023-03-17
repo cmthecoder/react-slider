@@ -1,7 +1,7 @@
 .carousel {
   cursor: grab;
   overflow: hidden;
-  background: rgba(230, 173, 173);
+  /* background: rgba(230, 173, 173); */
 }
 
 
@@ -20,5 +20,5 @@
 
 .inner-carousel {
   display: flex;
-  background: lightblue;
+  /* background: lightblue; */
 }
